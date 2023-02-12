@@ -1,0 +1,33 @@
+Package: saptools
+Title: An R package for the SAP group
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Custom functions and scripts for the Speech Acquisition and Production research group at the Center for Brain and Cognition (Universitat Pompeu Fabra). An opinionated project structure and tidyverse-based workflow is suggested. This package also contains wrappers for setting up {targets} and {renv} to manage more complex workflows and package depencies, and Quarto for writing reports, lab notes, and manuscripts. Apache Arrow is use for loading and saving data in CSV, Parquet, and Arrow Database formats via the {arrow} R package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    arrow,
+    audio,
+    cli,
+    dplyr,
+    gert,
+    glue,
+    janitor,
+    lubridate,
+    purrr,
+    quarto,
+    renv,
+    seewave,
+    stringr,
+    targets,
+    tibble,
+    tidyr,
+    tuneR,
+    usethis
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
